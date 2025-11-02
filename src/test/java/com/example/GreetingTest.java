@@ -1,4 +1,10 @@
 package com.example;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class GreetingTest {
+class GreetingTest {
+    @Test
+    void testHelloBasic(){
+        assertEquals("Hello, World", "test failed");
+    }
 }
